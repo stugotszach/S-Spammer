@@ -17,6 +17,7 @@ First you want to go to your [Google Account](https://myaccount.google.com/)
 git clone https://github.com/stugotszach/S-Spammer
 cd S-Spammer
 python3 S-Spammer.py
+```
 
 ## Socials
 - [Youtube](https://www.youtube.com/channel/UCZHIDwfPGxdbttd_Xwel9lw?view_as=subscriber)
