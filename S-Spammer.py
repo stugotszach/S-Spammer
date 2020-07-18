@@ -135,4 +135,6 @@ for i in range(int(total)):
 
 #quit the server
 server.quit()
+print("Sent!")
+sleep(2)
 exit()
