@@ -7,6 +7,7 @@ def prYellow(skk): print("\033[93m {}\033[00m" .format(skk))
 greybg='\033[47m'
 reset='\033[0m'
 grey='\033[37m'
+def prRed(skk): print("\033[91m {}\033[00m" .format(skk)) 
 
 # This will start our email server
 smtp = "smtp.gmail.com" 
@@ -41,7 +42,7 @@ while login:
         server.login(gmail,password)
         break
     except smtplib.SMTPAuthenticationError:
-        prYellow("[!]" + reset + " Something went wrong, did you turn on less secure apps? or did you input a wrong pass or E-Mail?")
+        prRed("[!]" + reset + " Something went wrong, did you turn on less secure apps? or did you input a wrong pass or E-Mail?")
         sleep(4)
         login = True
 if platform == "linux" or platform == "linux2":
